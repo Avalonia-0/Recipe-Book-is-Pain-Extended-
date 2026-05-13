@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "recipe-book-is-pain",
+  "version": "${version}",
+  "name": "Recipe Book Is Pain",
+  "description": "Makes the recipe book use a little more enums",
+  "authors": [
+    "melontini"
+  ],
+  "contact": {
+    "sources": "https://github.com/constellation-mc/recipe_book_is_pain",
+    "issues": "https://github.com/constellation-mc/recipe_book_is_pain/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/recipe-book-is-pain/icon.png",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "recipe-book-is-pain.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
